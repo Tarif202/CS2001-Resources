@@ -91,6 +91,22 @@ Sprint Goal: have some integrated back end.
 |001-6| Improved user experience | Jamima | Yes |
 |002-4 | Started spring boot setup | Jamima | Yes |
 
+####  Epic-User Story ID 001 
+ **Acceptance criteria:**
+ : A user can send a test email using a simple Rest API
+
+| **Task ID** | **Description** | **Assigned To** | **Done?**| 
+| ------------| ----------------| ----------------| -----------|
+|001-1 | Set up a Spring Boot project | Acelya | Yes |
+|001-2 |Implement a basic REST API to send single test emails | Acelya | Yes |
+
+####  Epic-User Story ID 003 
+ **Acceptance criteria:**
+ : Users can delete their data
+
+| **Task ID** | **Description** | **Assigned To** | **Done?**| 
+| ------------| ----------------| ----------------| -----------|
+|003-1 | Create a REST API to delete basic user data  | Acelya | Yes |
 
 ### New/Revised Tasks
 
@@ -114,7 +130,11 @@ Sprint Goal: have some integrated back end.
 | 007-2 | when downloading data users can open a json file |
 
 
+####  Epic-User Story ID 001 
 
+| **Task ID** | **Description** |
+|-------------|-----------------|
+| 001-1 | Added a better UI for email fequency |
 
 ### Sprint Retrospective
 
@@ -204,6 +224,12 @@ user can create and save their journal entries and goals (Backend)
 011-4 | Hard code default user interactions with LLM | 8 | Viktor |
 011-5 | Implement API calls for LLM to read user input, respond and store conversation data in backend | 3 | Viktor | 
 
+9.  Email backend 012
+
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+| ------------| ----------------| ----------------| ----------------|
+|001|Fix gmail smtp properties to recieve an email |7| Acelya |
+|002|Integrate this email subscription form with the initial survey |5| Acelya |
 
 
 # Appendix - Project Backlog
