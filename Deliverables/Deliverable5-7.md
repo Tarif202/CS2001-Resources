@@ -18,6 +18,7 @@ Sprint Goal: have some integrated back end.
 | Demod login and registration and emergency contact information form | UI improvement needed  |
 | Email progress | consider using gmail smpt instead  |
 | improved front end design | looks better and functional  |
+| Questionnaire Skeleton | Better to fetch the questions from Backend and work on CSS-Styling |
 
 
 
@@ -108,6 +109,22 @@ Sprint Goal: have some integrated back end.
 | ------------| ----------------| ----------------| -----------|
 |003-1 | Create a REST API to delete basic user data  | Acelya | Yes |
 
+
+####  Epic-User Story ID Questionnaire - 001
+
+| **Task ID** | **Description** | **Assigned To** | **Done?**| 
+| ------------| ----------------| ----------------| -----------|
+|001-01          | Setup Questionnaire in Front-end | Tarif | Yes |
+|001-02          | Fetch Questions from Backend | Tarif | No |
+|001-03          | Adding CSS-Styling to Front-end | Tarif | No |
+
+####  Epic-User Story ID Storing Questionnaire Responses - 002
+
+| **Task ID** | **Description** | **Assigned To** | **Done?**| 
+| ------------| ----------------| ----------------| -----------|
+|002-01          | Implement Backend  | Tarif | No |
+ 
+
 ### New/Revised Tasks
 
 **Instructions:** Add any new tasks coming from the review that wasn't previously in the backlog. Below is an example. Remove the example and add yours.
@@ -135,6 +152,13 @@ Sprint Goal: have some integrated back end.
 | **Task ID** | **Description** |
 |-------------|-----------------|
 | 001-1 | Added a better UI for email fequency |
+
+####  Epic-User Story ID Questionnaire 001
+
+| **Task ID** | **Description** |
+|-------------|-----------------|
+| 003-1 | Implement a submit button using React |
+|001-03 | Adding CSS-Styling to Front-end |  
 
 ### Sprint Retrospective
 
@@ -230,6 +254,14 @@ user can create and save their journal entries and goals (Backend)
 | ------------| ----------------| ----------------| ----------------|
 |001|Fix gmail smtp properties to recieve an email |7| Acelya |
 |002|Integrate this email subscription form with the initial survey |5| Acelya |
+
+10.  Epic-User Story ID Questionnaire
+ **Acceptance criteria:**
+User can submit their responses and store their responses.
+
+| **Task ID** | **Description** | **Story Point** | **Assigned To** |
+| ------------| ----------------| ----------------| ----------------|
+|002-1        | Backend for Storing Responses | 5 |     Tarif      |
 
 
 # Appendix - Project Backlog
